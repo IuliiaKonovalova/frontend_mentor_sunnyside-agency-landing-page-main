@@ -19,7 +19,6 @@
 }
 
 /*------ Global Settings------*/
-
 *,
 *::before,
 *::after {
@@ -34,4 +33,13 @@ h2,
 p {
   margin: 0;
   padding: 0;
+}
+
+/*------ Body Styling------*/
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--ff-primary);
+  font-size: 18px;
+
 }
