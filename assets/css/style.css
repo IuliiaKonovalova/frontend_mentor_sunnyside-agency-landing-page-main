@@ -1,3 +1,20 @@
+:root {
+  --clr-primary--300: hsl(167, 40%, 24%);
+  --clr-primary--500: hsl(198, 62%, 26%);
+  --clr-primary--900: hsl(168, 34%, 41%);
+  --clr-neutral--100: hsl(0, 0%, 100%);
+  --clr-neutral--300: hsl(210, 4%, 67%);
+  --clr-neutral--500: hsl(232, 10%, 55%);
+  --clr-neutral--700: hsl(213, 9%, 39%);
+  --clr-neutral--900: hsl(212, 27%, 19%);
+  --clr-accent--500: hsl(51, 100%, 49%);
+  --clr-accent--900: hsl(7, 99%, 70%);
+  --ff-primary: 'Barlow', sans-serif;
+  --ff-accent: 'Fraunces', serif;
+  --br: 1.7em;
+  --br-elements: 0.8em;
+}
+
 /*------ Global Settings------*/
 
 *,
