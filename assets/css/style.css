@@ -41,5 +41,15 @@ body {
   flex-direction: column;
   font-family: var(--ff-primary);
   font-size: 18px;
+  background-color: aquamarine;
 
+}
+
+.header {
+  background-image: url('../images/desktop/image-header.jpg');
+  background-color: #3ebfff;
+  /* background-attachment: center; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
