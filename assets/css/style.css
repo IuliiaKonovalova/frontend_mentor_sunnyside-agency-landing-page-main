@@ -57,6 +57,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   position: relative;
@@ -65,8 +66,13 @@ body {
 
 
 .incentive {
+  position: absolute;
+  top: 25%;
   color: var(--clr-neutral--100);
   font-family: var(--ff-accent);
+  text-transform: uppercase;
+  letter-spacing: 0.4rem;
+
 
 }
 
@@ -122,4 +128,8 @@ body {
   font-family: var(--ff-accent);
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.arrow {
+  /* padding-top: 4rem; */
 }
