@@ -133,3 +133,17 @@ body {
 .arrow {
   /* padding-top: 4rem; */
 }
+
+.descriptions_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 25rem 25rem 25rem;
+}
+
+.transformation_image {
+  background-color: var(--clr-accent--500);
+  background-image: url('../images/desktop/image-transform.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
