@@ -45,8 +45,7 @@ body {
 
 }
 
-
-
+/*------ Header Styling------*/
 .header {
   margin: 0;
   padding: 0;
@@ -63,8 +62,6 @@ body {
   position: relative;
 }
 
-
-
 .incentive {
   position: absolute;
   top: 25%;
@@ -72,15 +69,13 @@ body {
   font-family: var(--ff-accent);
   text-transform: uppercase;
   letter-spacing: 0.4rem;
-
-
 }
 
+/*------ Navigator Styling------*/
 .nav_container {
   position: absolute;
   top: 0;
   background-color: var(--clr-accent--300);
-  /* background-color: burlywood; */
   display: grid;
   grid-template-columns: 1fr 1fr;
   width: 100%;
@@ -103,8 +98,6 @@ body {
   padding-right: 1.5rem;
   list-style: none;
   font-size: 0.8rem;
-
-  /* justify-content: space-between; */
 }
 
 .nav li:not(:first-child) {
@@ -116,7 +109,7 @@ body {
   color: var(--clr-neutral--100);
 }
 
-
+/*------ Contact button Styling------*/
 .contact {
   background-color: var(--clr-neutral--100);
   padding: 0.5rem 1.5rem;
@@ -134,6 +127,7 @@ body {
   /* padding-top: 4rem; */
 }
 
+/*------ Main Container Styling------*/
 .descriptions_container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -145,7 +139,7 @@ body {
   background-image: url('../images/desktop/image-transform.jpg');
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: top;
+  background-position: center;
 }
 
 .stand_out_image {
@@ -153,16 +147,12 @@ body {
   background-image: url('../images/desktop/image-stand-out.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: top;
+  background-position: center;
 }
 
 .block {
   justify-self: center;
   align-self: center;
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; */
   width: 67%;
 
 }
@@ -174,6 +164,7 @@ body {
 
 .block_title {
   font-family: var(--ff-accent);
+  color: var(--clr-neutral--900);
   font-size: 2rem;
   letter-spacing: 0.1rem;
   padding-bottom: 2rem;
@@ -187,4 +178,10 @@ body {
   line-height: 2;
   color: var(--clr-neutral--700);
   padding-bottom: 3rem;
+}
+
+.block_link {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 0.9rem;
 }
