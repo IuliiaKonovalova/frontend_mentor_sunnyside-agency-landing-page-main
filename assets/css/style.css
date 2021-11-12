@@ -374,3 +374,20 @@ body {
 .position {
   color: var(--clr-neutral--300)
 }
+
+.gallery_container {
+  width: 100%;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-flow: dense;
+
+}
+
+.gallery_image {
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}
