@@ -2,7 +2,7 @@
 
 :root {
   --clr-primary--100: #91d3c5;
-  --clr-primary--300: #25564b;
+  --clr-primary--300: #9ba8a5;
   --clr-primary--500: hsl(198, 62%, 26%);
   --clr-primary--900: hsl(168, 34%, 41%);
   --clr-neutral--100: hsl(0, 0%, 100%);
@@ -429,5 +429,5 @@ body {
 
 .footer_links li a {
   text-decoration: none;
-  color: var(--clr-neutral--100);
+  color: var(--clr-primary--700);
 }
