@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap');
 
 :root {
-  --clr-primary--300: hsl(167, 40%, 24%);
+  --clr-primary--100: #91d3c5;
+  --clr-primary--300: #25564b;
   --clr-primary--500: hsl(198, 62%, 26%);
   --clr-primary--900: hsl(168, 34%, 41%);
   --clr-neutral--100: hsl(0, 0%, 100%);
@@ -390,4 +391,11 @@ body {
   width: 100%;
   object-fit: cover;
   display: block;
+}
+
+.footer {
+  color: var(--clr-primary--900);
+  background-color: var(--clr-primary--100);
+  display: flex;
+  flex-direction: column;
 }
