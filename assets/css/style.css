@@ -131,10 +131,12 @@ body {
 .descriptions_container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: repeat(3, minmax(1fr, 25rem));
+  grid-template-rows: repeat(3, 1fr);
 }
 
 .transformation_image {
+  grid-row: 1/2;
+  grid-column: 2/3;
   background-color: var(--clr-accent--500);
   background-image: url('../images/desktop/image-transform.jpg');
   background-size: cover;
@@ -143,6 +145,8 @@ body {
 }
 
 .stand_out_image {
+  grid-row: 2/3;
+  grid-column: 1/2;
   background-color: var(--clr-accent--500);
   background-image: url('../images/desktop/image-stand-out.jpg');
   background-size: cover;
@@ -150,23 +154,26 @@ body {
   background-position: center;
 }
 
+.transformation_block {
+  grid-row: 1/2;
+  grid-column: 1/2;
+}
+
+.block_stand_out {
+  grid-row: 2/3;
+  grid-column: 2/3;
+}
+
 .block {
   justify-self: center;
   align-self: center;
-  /* width: 67%; */
-
-}
-
-.content_holder {
-  /* height: 100%; */
-
 }
 
 .block_container {
-  padding-top: 13vh;
-  padding-bottom: 13vh;
-  padding-right: 8vw;
-  padding-left: 8vw;
+  padding-top: 15vh;
+  padding-bottom: 15vh;
+  padding-right: 10vw;
+  padding-left: 10vw;
 }
 
 .block_title {
@@ -174,7 +181,7 @@ body {
   color: var(--clr-neutral--900);
   font-size: 4vh;
   letter-spacing: 0.1rem;
-  padding-bottom: 2rem;
+  padding-bottom: 7vh;
   font-weight: 900;
 }
 
@@ -184,12 +191,12 @@ body {
   font-weight: 100;
   line-height: 1.8;
   color: var(--clr-neutral--700);
-  /* padding-bottom: 3rem; */
 }
 
 .block_link {
   text-transform: uppercase;
   font-family: var(--ff-accent);
+  color: var(--clr-neutral--900);
   font-weight: 600;
   font-size: 2vh;
   display: inline;
@@ -229,13 +236,22 @@ body {
   z-index: -1;
 }
 
-.image_block {
+.image_block1 {
+  /* position: relative; */
+  grid-row: 3/4;
+  grid-column: 1/2;
+  position: relative;
+}
+
+.image_block2 {
   position: relative;
 
-
+  grid-row: 3/4;
+  grid-column: 2/3;
 }
 
 .design {
+
   background-color: var(--clr-accent--500);
   background-image: url('../images/desktop/image-graphic-design.jpg');
   background-size: cover;
@@ -244,6 +260,7 @@ body {
 }
 
 .photography {
+
   background-color: var(--clr-accent--500);
   background-image: url('../images/desktop/image-photography.jpg');
   background-size: cover;
@@ -253,13 +270,14 @@ body {
 
 .image_content {
   position: absolute;
-  top: 60%;
+  top: 63%;
   display: flex;
   flex-direction: column;
   justify-content: end;
   align-items: center;
   width: 100%;
 }
+
 
 .design_content {
   color: var(--clr-primary--300);
@@ -272,13 +290,14 @@ body {
 .image_title {
   text-align: center;
   font-family: var(--ff-accent);
+  font-size: 3vh;
 }
 
 .image_text {
   width: 50%;
   text-align: center;
-  font-size: 0.75rem;
+  font-size: 1.7vh;
   line-height: 1.8;
 
-  padding-top: 1.5rem;
+  padding-top: 3vh;
 }
