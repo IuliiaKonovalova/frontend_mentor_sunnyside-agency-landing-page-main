@@ -131,7 +131,7 @@ body {
 .descriptions_container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: repeat(3, minmax(25rem, max-content));
+  grid-template-rows: repeat(3, minmax(1fr, 25rem));
 }
 
 .transformation_image {
@@ -153,7 +153,7 @@ body {
 .block {
   justify-self: center;
   align-self: center;
-  width: 67%;
+  /* width: 67%; */
 
 }
 
@@ -162,10 +162,17 @@ body {
 
 }
 
+.block_container {
+  padding-top: 13vh;
+  padding-bottom: 13vh;
+  padding-right: 8vw;
+  padding-left: 8vw;
+}
+
 .block_title {
   font-family: var(--ff-accent);
   color: var(--clr-neutral--900);
-  font-size: 2rem;
+  font-size: 4vh;
   letter-spacing: 0.1rem;
   padding-bottom: 2rem;
   font-weight: 900;
@@ -173,7 +180,7 @@ body {
 
 .block_text {
   display: block;
-  font-size: 3vh;
+  font-size: 1.7vh;
   font-weight: 100;
   line-height: 1.8;
   color: var(--clr-neutral--700);
@@ -184,7 +191,7 @@ body {
   text-transform: uppercase;
   font-family: var(--ff-accent);
   font-weight: 600;
-  font-size: 0.9rem;
+  font-size: 2vh;
   display: inline;
   padding-top: 3rem;
 
