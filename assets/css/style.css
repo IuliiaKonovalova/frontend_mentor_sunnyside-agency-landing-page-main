@@ -401,9 +401,15 @@ body {
 }
 
 .logo_footer {
-  height: 5rem;
+  height: 10rem;
   background-image: url('../images/logo_footer.svg');
   background-size: center;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.footer_links_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
