@@ -413,3 +413,21 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+.footer_links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 1.5rem;
+  list-style: none;
+  font-size: 1.8vh;
+}
+
+.footer_links li:not(:first-child) {
+  margin-left: 2rem;
+}
+
+.footer_links li a {
+  text-decoration: none;
+  color: var(--clr-neutral--100);
+}
