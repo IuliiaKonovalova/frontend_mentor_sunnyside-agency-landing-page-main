@@ -499,6 +499,79 @@ body {
 
   .image_text {
     line-height: 1.7;
+    font-size: 2.1vh;
+  }
+}
+
+@media screen and (max-width: 1410px) {
+
+  .block_container {
+    padding-top: 7vh;
+    padding-bottom: 7vh;
+    padding-right: 8vw;
+    padding-left: 8vw;
   }
 
+  .block_title {
+    font-size: 2.5rem;
+    padding-bottom: 5vh;
+  }
+
+  .block_text {
+    font-size: 1.2rem;
+    line-height: 1.7;
+  }
+
+  .block_link {
+    font-size: 1.3rem;
+  }
+
+  .image_content {
+
+    top: 59%;
+  }
+
+  .image_title {
+    font-size: 2.5rem;
+  }
+
+  .image_text {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    width: 70%;
+  }
+
+  .testimonials_section {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    padding-left: 4vw;
+    padding-right: 4vw;
+  }
+
+  .testimonials_title {
+    font-size: 1.5rem;
+  }
+
+  .testimonial {
+    gap: 2vh;
+  }
+
+  .testimonial:not(:last-child) {
+    padding-right: 3vw;
+  }
+
+  .testimonial_text {
+    width: 95%;
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+
+  .author {
+    padding-bottom: 0.5rem;
+    font-size: 1.3rem;
+  }
+
+  .position {
+    font-size: 1rem;
+  }
 }
