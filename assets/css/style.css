@@ -66,13 +66,15 @@ body {
 
 .incentive {
   position: absolute;
-  top: 25%;
+  top: 23%;
   color: var(--clr-neutral--100);
   font-family: var(--ff-accent);
   text-transform: uppercase;
   letter-spacing: 1rem;
-  font-size: 9rem;
+  font-size: 6vh;
   font-weight: 900;
+  text-align: center;
+  max-width: 80%;
 }
 
 /*------ Navigator Styling------*/
@@ -128,7 +130,7 @@ body {
 }
 
 .arrow {
-  /* padding-top: 4rem; */
+  height: 20vh;
 }
 
 /*------ Main Container Styling------*/
@@ -651,6 +653,13 @@ body {
 }
 
 @media screen and (max-width: 1110px) {
+
+  .incentive {
+    letter-spacing: 1rem;
+    font-size: 5vh;
+    font-weight: 900;
+  }
+
   .block_container {
     padding-right: 6vw;
     padding-left: 6vw;
