@@ -456,3 +456,22 @@ body {
   text-decoration: none;
   color: var(--clr-primary--700);
 }
+
+/* Styling Credits section */
+
+.attribution {
+  font-size: 1.8vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.attribution>div {
+  letter-spacing: 0.05rem;
+  margin-bottom: 0.5rem;
+}
+
+.attribution>div a {
+  color: hsl(228, 45%, 44%);
+
+}
