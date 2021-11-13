@@ -432,3 +432,7 @@ body {
   text-decoration: none;
   color: var(--clr-primary--700);
 }
+
+.footer_media_container {
+  height: 10rem;
+}
