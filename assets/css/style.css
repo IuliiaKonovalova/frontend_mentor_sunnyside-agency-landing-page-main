@@ -434,5 +434,25 @@ body {
 }
 
 .footer_media_container {
-  height: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.footer_media_links {
+  display: flex;
+  align-items: center;
+
+  list-style: none;
+  font-size: 1.8vh;
+}
+
+.footer_media_links li:not(:last-child) {
+  margin-right: 2rem;
+}
+
+.footer_media_links li a {
+  text-decoration: none;
+  color: var(--clr-primary--700);
 }
