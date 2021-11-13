@@ -253,7 +253,6 @@ body {
 }
 
 .design {
-
   background-color: var(--clr-accent--500);
   background-image: url('../images/desktop/image-graphic-design.jpg');
   background-size: cover;
@@ -262,7 +261,6 @@ body {
 }
 
 .photography {
-
   background-color: var(--clr-accent--500);
   background-image: url('../images/desktop/image-photography.jpg');
   background-size: cover;
@@ -280,7 +278,7 @@ body {
   width: 100%;
 }
 
-
+/*------ Design and Photo Sections Styling------*/
 .design_content {
   color: var(--clr-primary--700);
 }
@@ -303,6 +301,7 @@ body {
   padding-top: 3vh;
 }
 
+/*------ Testimonials Styling------*/
 .testimonials_section {
   display: flex;
   flex-direction: column;
