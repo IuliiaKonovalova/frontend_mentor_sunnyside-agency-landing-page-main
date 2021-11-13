@@ -527,7 +527,6 @@ body {
   }
 
   .image_content {
-
     top: 59%;
   }
 
@@ -574,4 +573,41 @@ body {
   .position {
     font-size: 1rem;
   }
+}
+
+@media screen and (max-width: 1410px) {
+  .block_container {
+    padding-right: 6vw;
+    padding-left: 6vw;
+  }
+
+  .block_title {
+    font-size: 2.3rem;
+    padding-bottom: 2rem;
+  }
+
+  .block_text {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+
+  .block_link {
+    font-size: 1.1rem;
+  }
+
+  .image_content {
+    top: 57%;
+  }
+
+  .image_title {
+    font-size: 2.5rem;
+  }
+
+  .image_text {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    width: 70%;
+    padding-top: 1rem;
+  }
+
 }
