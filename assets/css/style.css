@@ -475,3 +475,21 @@ body {
   color: hsl(228, 45%, 44%);
 
 }
+
+/* --------MEDIA-------- */
+
+@media screen and (min-width: 1908px) {
+
+  .block_title {
+    font-size: 5vh;
+  }
+
+  .block_text {
+    font-size: 2.1vh;
+  }
+
+  .block_link {
+    font-size: 2.5vh;
+  }
+
+}
