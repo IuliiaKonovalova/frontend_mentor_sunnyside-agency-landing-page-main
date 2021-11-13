@@ -4,7 +4,7 @@
   --clr-primary--100: #91d3c5;
   --clr-primary--300: #9ba8a5;
   --clr-primary--500: hsl(198, 62%, 26%);
-  --clr-primary--900: hsl(168, 34%, 41%);
+  --clr-primary--900: #458c7e;
   --clr-neutral--100: hsl(0, 0%, 100%);
   --clr-neutral--300: hsl(210, 4%, 67%);
   --clr-neutral--500: hsl(232, 10%, 55%);
@@ -401,30 +401,31 @@ body {
 }
 
 .logo_footer {
-  height: 10rem;
+  height: 5rem;
   background-image: url('../images/logo_footer.svg');
-  background-size: center;
+  background-size: 8%;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: bottom;
 }
 
 .footer_links_container {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
 }
 
 .footer_links {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding-right: 1.5rem;
+
   list-style: none;
   font-size: 1.8vh;
 }
 
-.footer_links li:not(:first-child) {
-  margin-left: 2rem;
+.footer_links li:not(:last-child) {
+  margin-right: 5rem;
 }
 
 .footer_links li a {
