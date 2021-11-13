@@ -624,7 +624,7 @@ body {
     gap: 2rem;
   }
 
-  .testimonial :not(:last-child) {
+  .testimonial:not(:last-child) {
     padding-bottom: 1.5rem;
   }
 
