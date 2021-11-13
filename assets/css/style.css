@@ -758,3 +758,24 @@ body {
   }
 
 }
+
+@media screen and (max-width: 850px) {
+
+  .image_holder {
+    height: 25rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+
+  .image_holder {
+    height: 20rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+
+  .image_holder {
+    height: 17rem;
+  }
+}
