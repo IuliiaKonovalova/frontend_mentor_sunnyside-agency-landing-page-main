@@ -4,6 +4,7 @@
   --clr-primary--100: #91d3c5;
   --clr-primary--300: #9ba8a5;
   --clr-primary--500: hsl(198, 62%, 26%);
+  --clr-primary--700: #25564b;
   --clr-primary--900: #458c7e;
   --clr-neutral--100: hsl(0, 0%, 100%);
   --clr-neutral--300: hsl(210, 4%, 67%);
@@ -281,7 +282,7 @@ body {
 
 
 .design_content {
-  color: var(--clr-primary--300);
+  color: var(--clr-primary--700);
 }
 
 .photography_content {
@@ -401,9 +402,9 @@ body {
 }
 
 .logo_footer {
-  height: 5rem;
+  height: 7rem;
   background-image: url('../images/logo_footer.svg');
-  background-size: 8%;
+  background-size: 10rem;
   background-repeat: no-repeat;
   background-position: bottom;
 }
@@ -430,7 +431,7 @@ body {
 
 .footer_links li a {
   text-decoration: none;
-  color: var(--clr-primary--700);
+  color: var(--clr-primary--900);
 }
 
 .footer_media_container {
@@ -490,6 +491,14 @@ body {
 
   .block_link {
     font-size: 2.5vh;
+  }
+
+  .image_title {
+    font-size: 4vh;
+  }
+
+  .image_text {
+    line-height: 1.7;
   }
 
 }
