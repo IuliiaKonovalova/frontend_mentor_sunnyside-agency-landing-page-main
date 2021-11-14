@@ -26,7 +26,11 @@ This is a solution to the [Sunnyside agency landing page challenge on Frontend M
 - [Credits](#credits)
 - [Acknowledgments](#acknowledgments)
 
+I was using design files provided for this challenge in order to make the result look as similar as possible to the provided images.
 
+I have also added various breakpoints in order to provide the best user experience.
+
+The solution to this challenge can be accessed by this [link](https://iuliiakonovalova.github.io/frontend_mentor_sunnyside-agency-landing-page-main/)
 
 
 
