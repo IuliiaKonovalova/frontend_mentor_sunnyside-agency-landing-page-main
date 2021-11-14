@@ -71,7 +71,7 @@ body {
   font-family: var(--ff-accent);
   text-transform: uppercase;
   letter-spacing: 1rem;
-  font-size: 5rem;
+  font-size: 6rem;
   font-weight: 900;
   text-align: center;
   max-width: 80%;
@@ -577,6 +577,11 @@ body {
   .image_holder {
     height: 33rem;
   }
+
+  .incentive {
+    font-size: 5rem;
+  }
+
 }
 
 
