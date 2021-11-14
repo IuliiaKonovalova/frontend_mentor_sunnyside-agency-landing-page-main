@@ -33,7 +33,22 @@ I have also added various breakpoints in order to provide the best user experien
 The solution to this challenge can be accessed by this [link](https://iuliiakonovalova.github.io/frontend_mentor_sunnyside-agency-landing-page-main/)
 
 
+![Responsive Mockup](documentation/responsive_mockup.png)
 
+
+---
+## User Stories
+
+### First Time Visitor Goals:
+
+* As a First Time Visitor, I want to easily understand the main purpose of the website, so I can learn more about this website.
+* As a First Time Visitor, I want to be able to easily navigate through the website, so I can find the content.
+* As a First Time Visitor, I want to find the website useful.
+* As a First Time Visitor, I want to see the testimonials, so I can see whether the organization is trustworthy.
+
+
+
+---
 
 ## Welcome! 👋
 
