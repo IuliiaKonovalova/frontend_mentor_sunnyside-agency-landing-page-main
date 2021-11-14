@@ -568,9 +568,6 @@ body {
 
 
 @media screen and (max-width: 1860px) {
-  /* .image_holder {
-    height: 25rem;
-  } */
 
   .nav_container {
     height: 8rem;
@@ -593,7 +590,6 @@ body {
     margin-left: 3.5rem;
   }
 
-  /*------ Contact button Styling------*/
   .contact {
     padding: 0.7rem 2rem;
   }
@@ -616,6 +612,38 @@ body {
 
 
 @media screen and (max-width: 1410px) {
+  .incentive {
+    font-size: 4.5rem;
+  }
+
+  .nav_container {
+    height: 6.5rem;
+  }
+
+  .logo_container {
+    padding-left: 2.5rem;
+  }
+
+  .logo_header {
+    height: 2.5rem;
+  }
+
+  .nav {
+    padding-right: 2.5rem;
+    font-size: 1.6rem;
+  }
+
+  .nav li:not(:first-child) {
+    margin-left: 2.5rem;
+  }
+
+  .contact {
+    padding: 0.6rem 1.5rem;
+  }
+
+  .contact a {
+    font-size: 1.5rem;
+  }
 
   .block_container {
     padding-top: 7vh;
