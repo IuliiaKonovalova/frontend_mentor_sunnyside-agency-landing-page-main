@@ -99,6 +99,11 @@ The solution to this challenge can be accessed by this [link](https://iuliiakono
 
 
 
+---
+## Author
+
+- Website - [Iuliia Konovalova](https://github.com/IuliiaKonovalova)
+- Frontend Mentor - [@IuliiaKonovalova](https://www.frontendmentor.io/profile/IuliiaKonovalova)
 
 ---
 ## Credits
