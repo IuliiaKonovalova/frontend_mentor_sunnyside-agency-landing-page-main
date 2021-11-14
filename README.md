@@ -45,16 +45,49 @@ The solution to this challenge can be accessed by this [link](https://iuliiakono
 * As a First Time Visitor, I want to be able to easily navigate through the website, so I can find the content.
 * As a First Time Visitor, I want to find the website useful.
 * As a First Time Visitor, I want to see the testimonials, so I can see whether the organization is trustworthy.
-
-### Returning VisitorGoals:
+### Returning Visitor Goals:
 
 * As a Returning Visitor, I want to see various content, so that I can pick the service.
 * As a Returning Visitor, I want to find a way to get in contact with the organization, so that I can ask additional questions or send a request about a their service.
 * As a Returning Visitor, I want to find community links, so that I can learn more about the organization.
-
-
+### Frequent Visitor Goals:
+* As a Frequent User, I want to be able always access the website, so I can learn about possible changes.
+* As a Frequent User, I want to have various content, so I can be engage in visiting this website often.
 
 ---
+
+
+
+
+
+
+
+
+
+## Technologies Used
+
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) - was used as the foundation of the site.
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/css) - was used to add the styles and layout of the site.
+- [CSS Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) - was used to arrange items symmetrically on the pages.
+- [CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/grid) - was used to make "gallery" and "contact" pages responsive.
+- [CSS roots](https://developer.mozilla.org/en-US/docs/Web/CSS/:root) - was used to declaring global CSS variables and apply them throughout the project. 
+- [JS](https://www.javascript.com/) - was used to make calculations and display content on the page.
+- [VSCode](https://code.visualstudio.com/) - was used as the main tool to write and edit code.
+- [Git](https://git-scm.com/) - was used for the version control of the website.
+- [GitHub](https://github.com/) - was used to host the code of the website.
+- [GIMP](https://www.gimp.org/) - was used to make and resize images for the README file.
+
+---
+
+
+
+
+
+
+
+
+
+
 
 ## Welcome! 👋
 
