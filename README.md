@@ -10,6 +10,22 @@ This is a solution to the [Sunnyside agency landing page challenge on Frontend M
 ![Design preview for the Sunnyside agency landing page coding challenge](./design/desktop-preview.jpg)
 
 
+## Table of contents
+
+- [User Stories](#user-stories)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Design](#design)
+- [Bugs](#bugs)
+- [Testing](#testing)
+  - [Compatibility](#compatibility)
+  - [Validator testing](#validator-testing)
+  - [Lighthouse Report](#lighthouse-report)
+- [Deployment](#deployment)
+- [Author](#author)
+- [Credits](#credits)
+- [Acknowledgments](#acknowledgments)
+
 
 
 
