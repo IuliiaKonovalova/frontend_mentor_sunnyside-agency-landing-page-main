@@ -568,8 +568,38 @@ body {
 
 
 @media screen and (max-width: 1860px) {
-  .image_holder {
-    height: 37rem;
+  /* .image_holder {
+    height: 25rem;
+  } */
+
+  .nav_container {
+    height: 8rem;
+  }
+
+  .logo_container {
+    padding-left: 3rem;
+  }
+
+  .logo_header {
+    height: 3rem;
+  }
+
+  .nav {
+    padding-right: 3rem;
+    font-size: 1.7rem;
+  }
+
+  .nav li:not(:first-child) {
+    margin-left: 3.5rem;
+  }
+
+  /*------ Contact button Styling------*/
+  .contact {
+    padding: 0.7rem 2rem;
+  }
+
+  .contact a {
+    font-size: 1.6rem;
   }
 }
 
