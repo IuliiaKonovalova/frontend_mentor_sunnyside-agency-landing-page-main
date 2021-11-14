@@ -46,6 +46,12 @@ The solution to this challenge can be accessed by this [link](https://iuliiakono
 * As a First Time Visitor, I want to find the website useful.
 * As a First Time Visitor, I want to see the testimonials, so I can see whether the organization is trustworthy.
 
+### Returning VisitorGoals:
+
+* As a Returning Visitor, I want to see various content, so that I can pick the service.
+* As a Returning Visitor, I want to find a way to get in contact with the organization, so that I can ask additional questions or send a request about a their service.
+* As a Returning Visitor, I want to find community links, so that I can learn more about the organization.
+
 
 
 ---
