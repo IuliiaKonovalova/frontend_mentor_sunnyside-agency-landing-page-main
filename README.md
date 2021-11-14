@@ -100,11 +100,16 @@ The solution to this challenge can be accessed by this [link](https://iuliiakono
 
 
 
+---
+## Credits
++ ### Content and Design
 
+  - [Frontend Mentor](https://www.frontendmentor.io) had provided all necessary content and design that was used in order to complete this challenge.
++ ### Font
 
+  - [Google Fonts](https://fonts.google.com/) was usd in order to implement required font.
 
-
-
+---
 ## Acknowledgement
 
   - [Frontend Mentor](https://www.frontendmentor.io) for inspiring to improve my skills.
