@@ -7,7 +7,7 @@ This is a solution to the [Sunnyside agency landing page challenge on Frontend M
 
 ## The design provided
 
-![Design preview for the Sunnyside agency landing page coding challenge](./design/desktop-preview.jpg)
+![Design preview for the Sunnyside agency landing page coding challenge](documentation/design/desktop-preview.jpg)
 
 
 ## Table of contents
@@ -105,6 +105,9 @@ The solution to this challenge can be accessed by this [link](https://iuliiakono
 
 
 
+## Acknowledgement
+
+  - [Frontend Mentor](https://www.frontendmentor.io) for inspiring to improve my skills.
 ---
 ## Wireframes
 
