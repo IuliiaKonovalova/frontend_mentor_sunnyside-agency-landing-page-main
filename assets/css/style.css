@@ -727,6 +727,10 @@ body {
     font-weight: 900;
   }
 
+  .nav {
+    all: unset;
+  }
+
   .block_container {
     padding-right: 6vw;
     padding-left: 6vw;
