@@ -11,6 +11,13 @@ document.addEventListener('DOMContentLoaded', function () {
   //Open menu
   btnOpenMenu.addEventListener('click', openMenu);
 
+
+
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && !menu.classList.contains('nav_on_click')) {
+      closeMenu();
+    }
+  });
 });
 
 
