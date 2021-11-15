@@ -802,6 +802,20 @@ body {
     display: none;
   }
 
+
+  .overlay {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0);
+    z-index: 5;
+  }
+
+  /* .overlay--hidden {
+  display: none;
+} */
+
+
   .block_container {
     padding-right: 6vw;
     padding-left: 6vw;
