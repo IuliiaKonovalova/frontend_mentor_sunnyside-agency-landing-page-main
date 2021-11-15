@@ -759,8 +759,6 @@ body {
     top: 2.5rem
   }
 
-
-
   .nav li:not(:first-child),
   .nav li:first-child {
     all: unset;
@@ -769,6 +767,22 @@ body {
     align-self: center;
     justify-self: center;
   }
+
+  .nav li>a {
+    text-decoration: none;
+    color: var(--clr-neutral--500);
+  }
+
+  .contact {
+    background-color: var(--clr-accent--500);
+    padding: 2rem 3.5rem;
+    margin-top: 1rem;
+  }
+
+  .contact a {
+    font-size: 1.7rem;
+  }
+
 
 
   .block_container {
