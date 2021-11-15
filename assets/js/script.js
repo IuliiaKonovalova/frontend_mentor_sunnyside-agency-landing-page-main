@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
   //Open menu
   btnOpenMenu.addEventListener('click', openMenu);
 
-
+  overlay.addEventListener('click', closeMenu);
 
   document.addEventListener('keydown', function (e) {
     if (e.key === 'Escape' && !menu.classList.contains('nav_on_click')) {
