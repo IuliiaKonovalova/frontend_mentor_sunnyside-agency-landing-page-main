@@ -736,6 +736,7 @@ body {
   }
 
   .nav--hidden {
+    display: none;
     position: absolute;
     top: 8rem;
     left: 2.5rem;
@@ -750,6 +751,20 @@ body {
     font-size: 2rem;
     text-align: center;
     background-color: var(--clr-neutral--100);
+  }
+
+  .nav--hidden::before {
+    content: '';
+    position: absolute;
+    /* left: 98px; */
+    right: 0;
+    width: 0;
+    height: 0;
+    top: -40px;
+    border-top: 40px solid transparent;
+    /* border-bottom: 10px solid transparent; */
+
+    border-right: 40px solid var(--clr-neutral--100);
   }
 
   .hamburger_menu_hidden {
