@@ -741,16 +741,20 @@ body {
     padding-right: 2.5rem;
     list-style: none;
     font-size: 2rem;
+    position: relative;
   }
 
   .hamburger_menu_hidden {
     display: block;
-
+    position: absolute;
+    right: 2.5rem;
+    top: 2.5rem
   }
 
   .nav_hidden .nav_element {
     display: none;
     height: 3.5rem;
+    right:
   }
 
   .block_container {
