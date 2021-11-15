@@ -811,9 +811,9 @@ body {
     z-index: 5;
   }
 
-  /* .overlay--hidden {
-  display: none;
-} */
+  .overlay--hidden {
+    display: none;
+  }
 
 
   .block_container {
