@@ -11,6 +11,8 @@ document.addEventListener('DOMContentLoaded', function () {
   //Open menu
   btnOpenMenu.addEventListener('click', openMenu);
 
+
+
   overlay.addEventListener('click', closeMenu);
 
   document.addEventListener('keydown', function (e) {
@@ -23,9 +25,17 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 /**
- * Open instructions modal window
+ * Open menu
  */
 const openMenu = function () {
   menu.classList.remove('nav_on_click');
   overlay.classList.remove('overlay--hidden');
+};
+
+/**
+ * Close menu
+ */
+const closeMenu = function () {
+  menu.classList.add('nav_on_click');
+  overlay.classList.add('overlay--hidden');
 };
