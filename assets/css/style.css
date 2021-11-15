@@ -752,6 +752,24 @@ body {
     background-color: var(--clr-neutral--100);
   }
 
+  .hamburger_menu_hidden {
+    display: block;
+    position: absolute;
+    right: 2.5rem;
+    top: 2.5rem
+  }
+
+
+
+  .nav li:not(:first-child),
+  .nav li:first-child {
+    all: unset;
+    margin: 0;
+    padding: 0;
+    align-self: center;
+    justify-self: center;
+  }
+
 
   .block_container {
     padding-right: 6vw;
