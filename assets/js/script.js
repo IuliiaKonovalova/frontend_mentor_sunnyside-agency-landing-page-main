@@ -4,6 +4,9 @@
 const menu = document.querySelector('#menu');
 const overlay = document.querySelector('#overlay');
 const about = document.querySelector('#nav_element_1');
+const services = document.querySelector('#nav_element_2');
+const projects = document.querySelector('#nav_element_3');
+const contact = document.querySelector('#nav_element_4');
 const btnOpenMenu = document.querySelector('#hamburger');
 
 document.addEventListener('DOMContentLoaded', function () {
