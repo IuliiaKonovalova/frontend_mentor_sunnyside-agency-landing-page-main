@@ -1061,3 +1061,13 @@ body {
     height: 17rem;
   }
 }
+
+@media screen and (max-width: 550px) {
+  .incentive {
+    font-size: 2rem;
+  }
+
+  .image_holder {
+    height: 15rem;
+  }
+}
