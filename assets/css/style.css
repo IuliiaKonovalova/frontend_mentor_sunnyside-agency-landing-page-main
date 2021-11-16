@@ -1122,12 +1122,19 @@ body {
   .image_holder {
     height: 15rem;
   }
+
+  .footer_links {
+    font-size: 1.3rem;
+  }
+
+  .footer_links li:not(:last-child) {
+    margin-right: 3rem;
+  }
 }
 
 @media screen and (max-width: 435px) {
   .incentive {
     font-size: 2.5rem;
-    /* letter-spacing: 0.25rem; */
   }
 
   .block_container {
@@ -1175,8 +1182,21 @@ body {
     letter-spacing: 0.05rem;
   }
 
+  .image_title {
+    font-size: 2.3rem;
+  }
+
   .image_holder {
     height: 15rem;
+  }
+
+
+  .footer_links {
+    font-size: 1.2rem;
+  }
+
+  .footer_links li:not(:last-child) {
+    margin-right: 2rem;
   }
 }
 
@@ -1193,5 +1213,19 @@ body {
 
   .block_link {
     font-size: 1.2rem;
+  }
+
+  .image_title {
+    font-size: 2rem;
+  }
+
+  .footer_links {
+    flex-direction: column;
+    font-size: 1.2rem;
+  }
+
+  .footer_links li:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 1rem;
   }
 }
