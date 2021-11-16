@@ -950,6 +950,22 @@ body {
     top: 55%;
   }
 
+  .nav--hidden {
+    padding-top: 2.5rem;
+    padding-bottom: 3rem;
+    gap: 1rem;
+    font-size: 1.5rem;
+  }
+
+  .contact {
+    padding: 1rem 2.5rem;
+    margin-top: 0;
+  }
+
+  .contact a {
+    font-size: 1.5rem;
+  }
+
   /*------ Main Container Styling------*/
   .descriptions_container {
     display: grid;
@@ -1184,6 +1200,22 @@ body {
     letter-spacing: 0.05rem;
   }
 
+  .nav--hidden {
+    left: 2rem;
+    right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2.2rem;
+    font-size: 1.3rem;
+  }
+
+  .contact {
+    padding: 0.7rem 1.7rem;
+  }
+
+  .contact a {
+    font-size: 1.3rem;
+  }
+
   .image_title {
     font-size: 2.3rem;
   }
@@ -1233,5 +1265,23 @@ body {
   .footer_links li:not(:last-child) {
     margin-right: 0;
     margin-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .nav--hidden {
+    left: 1.5rem;
+    right: 1.5rem;
+    padding-top: 2rem;
+    padding-bottom: 2.2rem;
+    font-size: 1.2rem;
+  }
+
+  .contact {
+    padding: 0.3rem 1rem;
+  }
+
+  .contact a {
+    font-size: 1.1rem;
   }
 }
