@@ -752,7 +752,7 @@ body {
     font-size: 2rem;
     text-align: center;
     background-color: var(--clr-neutral--100);
-
+    z-index: 999;
   }
 
   .nav--hidden::before {
