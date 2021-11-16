@@ -1186,8 +1186,12 @@ body {
     font-size: 2.3rem;
   }
 
+  .testimonials_title {
+    font-size: 1.2rem;
+  }
+
   .image_holder {
-    height: 15rem;
+    height: 12rem;
   }
 
 
