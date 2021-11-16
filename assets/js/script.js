@@ -11,17 +11,19 @@ const btnOpenMenu = document.querySelector('#hamburger');
 
 document.addEventListener('DOMContentLoaded', function () {
 
-  //Open menu
+  //Listen for the hamburger menu clicked
   btnOpenMenu.addEventListener('click', openMenu);
 
-
+  //Listen for menu links clicked
   about.addEventListener('click', closeMenu);
   services.addEventListener('click', closeMenu);
   projects.addEventListener('click', closeMenu);
   contact.addEventListener('click', closeMenu);
 
+  //Listen for overlay clicked
   overlay.addEventListener('click', closeMenu);
 
+  //Listen escape btn pressed
   document.addEventListener('keydown', function (e) {
     if (e.key === 'Escape' && !menu.classList.contains('nav_on_click')) {
       closeMenu();
