@@ -138,7 +138,7 @@ body {
 }
 
 .arrow {
-  height: 20vh;
+  height: 15rem;
 }
 
 /*------ Main Container Styling------*/
@@ -731,6 +731,10 @@ body {
     font-weight: 900;
   }
 
+  .arrow {
+    height: 12rem;
+  }
+
   /* Navbar*/
   .nav {
     all: unset;
@@ -927,12 +931,20 @@ body {
 
 @media screen and (max-width: 850px) {
 
-  .incentive {
-    font-size: 3rem;
-  }
-
   .header {
     background-image: url("../images/mobile/image-header.jpg");
+  }
+
+
+  .incentive {
+    font-size: 3rem;
+    top: 35%
+  }
+
+  .arrow {
+    position: absolute;
+    height: 10rem;
+    top: 55%;
   }
 
   /*------ Main Container Styling------*/
