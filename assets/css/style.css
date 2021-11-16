@@ -931,6 +931,10 @@ body {
     font-size: 3rem;
   }
 
+  .header {
+    background-image: url("../images/mobile/image-header.jpg");
+  }
+
   /*------ Main Container Styling------*/
   .descriptions_container {
     display: grid;
