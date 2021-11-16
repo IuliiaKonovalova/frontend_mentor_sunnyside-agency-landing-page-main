@@ -332,6 +332,7 @@ body {
   font-family: var(--ff-accent);
   font-size: 2vh;
   letter-spacing: 0.3rem;
+  text-align: center;
 }
 
 .testimonials {
@@ -1024,15 +1025,6 @@ body {
   }
 
   /*------ Testimonials Styling------*/
-  /* .testimonials_section {
-    padding-top: 6rem;
-    padding-bottom: 2rem;
-  }
-
-  .testimonials {
-    flex-direction: column;
-    padding-top: 4rem;
-  } */
 
   .testimonial {
     gap: 1.7rem;
@@ -1041,17 +1033,6 @@ body {
   .testimonial:not(:last-child) {
     padding-bottom: 1rem;
   }
-
-  /* 
-  .testimonial:not(:last-child) {
-    padding-right: 0;
-  } */
-
-
-  /* .testimonial_photo {
-    width: 7rem;
-    border-radius: 50%;
-  } */
 
   .testimonial_text {
     /* align-self: center; */
@@ -1071,11 +1052,35 @@ body {
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 650px) {
 
   .image_holder {
     height: 17rem;
   }
+
+  .image_content {
+    top: 55%;
+  }
+
+  .image_title {
+    font-size: 3rem;
+  }
+
+  .image_text {
+    width: 85%;
+    font-size: 1.4rem;
+    line-height: 1.6;
+  }
+
+  .testimonial {
+    gap: 1.5rem;
+  }
+
+  .testimonial_text {
+    width: 90%;
+    font-size: 1.3rem;
+  }
+
 }
 
 @media screen and (max-width: 550px) {
@@ -1101,6 +1106,17 @@ body {
 
   .block_link {
     font-size: 1.5rem;
+  }
+
+  .image_text {
+    width: 88%;
+    font-size: 1.4rem;
+    line-height: 1.5;
+  }
+
+  .testimonial_text {
+    width: 95%;
+    font-size: 1.2rem;
   }
 
   .image_holder {
@@ -1133,6 +1149,20 @@ body {
     font-size: 1.3rem;
   }
 
+  .image_title {
+    font-size: 2.6rem;
+  }
+
+  .image_text {
+    width: 90%;
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+
+  .image_holder {
+    height: 15rem;
+  }
+
   .image_holder {
     height: 15rem;
   }
@@ -1147,5 +1177,21 @@ body {
 
   .image_holder {
     height: 15rem;
+  }
+}
+
+
+@media screen and (max-width: 330px) {
+
+  .block_title {
+    font-size: 2.2rem;
+  }
+
+  .block_text {
+    font-size: 1.15rem;
+  }
+
+  .block_link {
+    font-size: 1.2rem;
   }
 }
