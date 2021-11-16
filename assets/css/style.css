@@ -52,7 +52,7 @@ body {
   margin: 0;
   padding: 0;
   height: 100vh;
-  width: 100%;
+  width: 100vw;
   background-image: url("../images/desktop/image-header.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -1080,7 +1080,69 @@ body {
 
 @media screen and (max-width: 550px) {
   .incentive {
-    font-size: 2rem;
+    /* font-size: 3rem; */
+    letter-spacing: 0.25rem;
+  }
+
+  .block_container {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    padding-right: 6vw;
+    padding-left: 6vw;
+  }
+
+  .block_title {
+    font-size: 3rem;
+  }
+
+  .block_text {
+    font-size: 1.4rem;
+  }
+
+  .block_link {
+    font-size: 1.5rem;
+  }
+
+  .image_holder {
+    height: 15rem;
+  }
+}
+
+@media screen and (max-width: 435px) {
+  .incentive {
+    font-size: 2.5rem;
+    /* letter-spacing: 0.25rem; */
+  }
+
+  .block_container {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    padding-right: 5vw;
+    padding-left: 5vw;
+  }
+
+  .block_title {
+    font-size: 2.6rem;
+  }
+
+  .block_text {
+    font-size: 1.15rem;
+  }
+
+  .block_link {
+    font-size: 1.3rem;
+  }
+
+  .image_holder {
+    height: 15rem;
+  }
+}
+
+@media screen and (max-width: 390px) {
+
+  .incentive {
+    font-size: 1.7rem;
+    letter-spacing: 0.05rem;
   }
 
   .image_holder {
