@@ -15,6 +15,10 @@ document.addEventListener('DOMContentLoaded', function () {
   btnOpenMenu.addEventListener('click', openMenu);
 
 
+  about.addEventListener('click', closeMenu);
+  services.addEventListener('click', closeMenu);
+  projects.addEventListener('click', closeMenu);
+  contact.addEventListener('click', closeMenu);
 
   overlay.addEventListener('click', closeMenu);
 
