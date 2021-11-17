@@ -137,6 +137,11 @@ body {
   text-transform: uppercase;
 }
 
+.arrow_holder {
+  display: flex;
+  justify-content: center;
+}
+
 .arrow {
   height: 15vh;
   cursor: pointer;
@@ -967,6 +972,9 @@ body {
 
   .header {
     background-image: url("../images/mobile/image-header.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
 
@@ -979,7 +987,6 @@ body {
     position: absolute;
     height: 10rem;
     top: 55%;
-
   }
 
   .nav--hidden {
