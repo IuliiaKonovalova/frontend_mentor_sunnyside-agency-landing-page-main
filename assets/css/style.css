@@ -810,7 +810,7 @@ body {
 
 
   .overlay {
-    height: 100vh;
+    height: 600vh;
     width: 100vw;
     position: absolute;
     background-color: rgba(0, 0, 0, 0);
