@@ -1,5 +1,3 @@
-/* jshint esversion:8 */
-
 // Variables
 const menu = document.querySelector('#menu');
 const overlay = document.querySelector('#overlay');
