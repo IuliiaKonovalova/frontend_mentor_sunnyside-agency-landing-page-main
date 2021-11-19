@@ -222,14 +222,14 @@ body {
 .block_container {
   padding-top: 10rem;
   padding-bottom: 10rem;
-  padding-right: 12rem;
   padding-left: 11rem;
+  max-width: 85%;
 }
 
 .block_title {
   font-family: var(--ff-accent);
   color: var(--clr-neutral--900);
-  font-size: 3rem;
+  font-size: 3.5rem;
   letter-spacing: 0.1rem;
   padding-bottom: 7vh;
   font-weight: 900;
@@ -748,10 +748,9 @@ body {
   }
 
   .block_container {
-    padding-top: 7vh;
-    padding-bottom: 7vh;
-    padding-right: 8vw;
-    padding-left: 8vw;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+    padding-left: 6rem;
   }
 
   .block_title {
@@ -917,10 +916,10 @@ body {
     display: none;
   }
 
-
   .block_container {
-    padding-right: 6vw;
-    padding-left: 6vw;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    padding-left: 5rem;
   }
 
   .block_title {
@@ -1097,6 +1096,7 @@ body {
 
   .block_title {
     font-size: 3.5rem;
+    padding-bottom: 3.5rem;
   }
 
   .block_text {
