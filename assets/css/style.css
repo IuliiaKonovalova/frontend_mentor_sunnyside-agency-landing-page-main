@@ -229,7 +229,7 @@ body {
 .block_title {
   font-family: var(--ff-accent);
   color: var(--clr-neutral--900);
-  font-size: 4vh;
+  font-size: 5rem;
   letter-spacing: 0.1rem;
   padding-bottom: 7vh;
   font-weight: 900;
@@ -237,7 +237,7 @@ body {
 
 .block_text {
   display: block;
-  font-size: 1.7vh;
+  font-size: 2.5rem;
   font-weight: 100;
   line-height: 1.8;
   color: var(--clr-neutral--700);
@@ -248,9 +248,9 @@ body {
   font-family: var(--ff-accent);
   color: var(--clr-neutral--900);
   font-weight: 600;
-  font-size: 2vh;
+  font-size: 2.5rem;
   display: inline;
-  padding-top: 3rem;
+  padding-top: 3.5rem;
   text-decoration: none;
 
 }
@@ -296,7 +296,6 @@ body {
 
 .image_block2 {
   position: relative;
-
   grid-row: 3/4;
   grid-column: 2/3;
 }
@@ -339,14 +338,14 @@ body {
 .image_title {
   text-align: center;
   font-family: var(--ff-accent);
-  font-size: 3vh;
+  font-size: 4.3rem;
 }
 
 .image_text {
   width: 50%;
   text-align: center;
-  font-size: 1.7vh;
-  line-height: 1.8;
+  font-size: 2.2rem;
+  line-height: 1.6;
   padding-top: 3vh;
 }
 
@@ -367,7 +366,7 @@ body {
   color: var(--clr-neutral--300);
   text-transform: uppercase;
   font-family: var(--ff-accent);
-  font-size: 2vh;
+  font-size: 3rem;
   letter-spacing: 0.3rem;
   text-align: center;
 }
@@ -376,7 +375,7 @@ body {
   display: flex;
   justify-content: space-around;
   padding-top: 3rem;
-  /* gap: 2.5rem */
+
 }
 
 .testimonial {
@@ -402,7 +401,7 @@ body {
   grid-row: 2/3;
   justify-self: center;
   width: 90%;
-  font-size: 1.8vh;
+  font-size: 2.1rem;
   font-weight: 100;
   line-height: 1.8;
   color: var(--clr-neutral--700);
@@ -421,11 +420,12 @@ body {
   font-family: var(--ff-accent);
   color: var(--clr-neutral--900);
   padding-bottom: 0.8rem;
-  font-size: 2vh;
+  font-size: 2rem;
 }
 
 .position {
-  color: var(--clr-neutral--300)
+  color: var(--clr-neutral--300);
+  font-size: 1.7rem;
 }
 
 .gallery_container {
@@ -579,27 +579,136 @@ body {
 
 /* --------MEDIA-------- */
 
-@media screen and (min-width: 1908px) {
+/* @media screen and (min-width: 1908px) {
 
   .block_title {
-    font-size: 5vh;
+    font-size: 5rem;
   }
 
   .block_text {
-    font-size: 2.1vh;
+    font-size: 2.5rem;
   }
 
   .block_link {
-    font-size: 2.5vh;
+    font-size: 2.5rem;
   }
 
   .image_title {
-    font-size: 4vh;
+    font-size: 4.3rem;
   }
 
   .image_text {
-    line-height: 1.7;
-    font-size: 2.1vh;
+    font-size: 2.2rem;
+  }
+
+  .testimonials_title {
+    font-size: 3rem;
+  }
+
+  .testimonial_text {
+    font-size: 2.1rem;
+  }
+
+  .author {
+    font-size: 2rem;
+  }
+
+  .position {
+    font-size: 1.7rem;
+  }
+
+  .image_holder {
+    height: 45rem;
+  }
+
+} */
+
+@media screen and (min-width: 1908px) {
+
+  .block_title {
+    font-size: 4rem;
+  }
+
+  .block_text {
+    font-size: 2rem;
+    line-height: 1.6;
+  }
+
+  .block_link {
+    font-size: 2.3rem;
+  }
+
+
+
+  .image_title {
+    font-size: 3.5rem;
+  }
+
+  .image_text {
+    font-size: 1.8rem;
+  }
+
+  .testimonials_title {
+    font-size: 2.5rem;
+  }
+
+  .testimonial_text {
+    font-size: 2.1rem;
+  }
+
+  .author {
+    font-size: 2rem;
+  }
+
+  .position {
+    font-size: 1.7rem;
+  }
+
+  .image_holder {
+    height: 45rem;
+  }
+
+}
+
+@media screen and (min-width: 1691px) {
+
+  .block_title {
+    font-size: 3.5rem;
+  }
+
+  .block_text {
+    font-size: 1.8rem;
+    line-height: 1.6;
+  }
+
+  .block_link {
+    font-size: 1.9rem;
+  }
+
+  .image_title {
+    font-size: 3.5rem;
+  }
+
+  .image_text {
+    width: 65%;
+    font-size: 1.8rem;
+    line-height: 1.5;
+  }
+
+  .testimonials_title {
+    font-size: 2.5rem;
+  }
+
+  .testimonial_text {
+    font-size: 2.1rem;
+  }
+
+  .author {
+    font-size: 2rem;
+  }
+
+  .position {
+    font-size: 1.7rem;
   }
 
   .image_holder {
