@@ -625,25 +625,26 @@ body {
 @media screen and (min-width: 1691px) {
 
   .block_title {
-    font-size: 3.5rem;
+    font-size: 6rem;
   }
 
   .block_text {
-    font-size: 1.8rem;
+    font-size: 2.5rem;
     line-height: 1.6;
   }
 
   .block_link {
-    font-size: 1.9rem;
+    font-size: 2.3rem;
+    padding-top: 5rem;
   }
 
   .image_title {
-    font-size: 3.5rem;
+    font-size: 4rem;
   }
 
   .image_text {
-    width: 65%;
-    font-size: 1.8rem;
+    width: 55%;
+    font-size: 2.5rem;
     line-height: 1.5;
   }
 
@@ -666,7 +667,6 @@ body {
   .image_holder {
     height: 45rem;
   }
-
 }
 
 
@@ -710,7 +710,6 @@ body {
   .incentive {
     font-size: 5rem;
   }
-
 }
 
 @media screen and (max-width: 1410px) {
@@ -1025,7 +1024,6 @@ body {
   .sugarcubes {
     background-image: url('../images/mobile/image-gallery-sugar-cubes.jpg');
   }
-
 }
 
 @media screen and (max-width: 850px) {
@@ -1156,7 +1154,6 @@ body {
   .image_holder {
     height: 26rem;
   }
-
 }
 
 @media screen and (max-width: 800px) {
@@ -1193,7 +1190,6 @@ body {
     width: 90%;
     font-size: 1.3rem;
   }
-
 }
 
 @media screen and (max-width: 550px) {
