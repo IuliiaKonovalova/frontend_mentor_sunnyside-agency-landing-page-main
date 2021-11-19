@@ -625,26 +625,26 @@ body {
 @media screen and (min-width: 1691px) {
 
   .block_title {
-    font-size: 6rem;
+    font-size: 5rem;
   }
 
   .block_text {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     line-height: 1.6;
   }
 
   .block_link {
-    font-size: 2.3rem;
+    font-size: 2.1rem;
     padding-top: 5rem;
   }
 
   .image_title {
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
 
   .image_text {
-    width: 55%;
-    font-size: 2.5rem;
+    width: 62%;
+    font-size: 2.2rem;
     line-height: 1.5;
   }
 
