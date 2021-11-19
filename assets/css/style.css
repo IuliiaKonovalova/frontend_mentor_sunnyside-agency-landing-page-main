@@ -220,10 +220,10 @@ body {
 }
 
 .block_container {
-  padding-top: 12vh;
-  padding-bottom: 12vh;
-  padding-right: 7vw;
-  padding-left: 7vw;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  padding-right: 12rem;
+  padding-left: 11rem;
 }
 
 .block_title {
