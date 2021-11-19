@@ -79,6 +79,36 @@ The solution to this challenge can be accessed by this [link](https://iuliiakono
 
 ---
 
+## Bugs
+None
+
+---
+
+---
+
+## Testing
+### Compatibility:
+
++ The app was tested on the following browsers: Chrome, Firefox, Brave, Edge:
+
+  - Chrome:
+
+  ![Main Page](documentation/compatibility/browser_chrome_tip_calculator.png)
+  
+  - Firefox:
+
+  ![Main Page](documentation/compatibility/browser_firefox_tip_calculator.png)
+
+  - Brave:
+
+  ![Main Page](documentation/compatibility/browser_brave_tip_calculator.png)
+
+
+
+
+
+---
+
 
 
 
