@@ -93,15 +93,15 @@ None
 
   - Chrome:
 
-  ![Main Page](documentation/compatibility/browser_chrome_tip_calculator.png)
+  ![Main Page](documentation/compatibility/browser_chrome_sunny.png)
   
   - Firefox:
 
-  ![Main Page](documentation/compatibility/browser_firefox_tip_calculator.png)
+  ![Main Page](documentation/compatibility/browser_firefox_sunny.png)
 
   - Brave:
 
-  ![Main Page](documentation/compatibility/browser_brave_tip_calculator.png)
+  ![Main Page](documentation/compatibility/browser_brave_sunny.png)
 
 
 
