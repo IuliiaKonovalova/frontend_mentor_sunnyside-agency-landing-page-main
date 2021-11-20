@@ -215,16 +215,16 @@ body {
 .block {
   justify-self: center;
   align-self: center;
-  /* flex-direction: column;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center; */
+  align-items: center;
 }
 
 .block_container {
-  padding-top: 10rem;
-  padding-bottom: 10rem;
-  padding-left: 11rem;
-  max-width: 85%;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  max-width: 65%;
 }
 
 .block_title {
@@ -624,6 +624,9 @@ body {
 }
 
 @media screen and (min-width: 1691px) {
+  /* .block_container {
+    padding-top: 2rem;
+  } */
 
   .block_title {
     font-size: 4rem;
@@ -749,9 +752,8 @@ body {
   }
 
   .block_container {
-    padding-top: 7rem;
-    padding-bottom: 7rem;
-    padding-left: 6rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
   }
 
   .block_title {
@@ -907,7 +909,7 @@ body {
 
   .overlay {
     height: 600vh;
-    width: 100vw;
+    /* width: 100vw; */
     position: absolute;
     background-color: rgba(0, 0, 0, 0);
     z-index: 5;
@@ -918,9 +920,8 @@ body {
   }
 
   .block_container {
-    padding-top: 6rem;
-    padding-bottom: 6rem;
-    padding-left: 5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
   }
 
   .block_title {
