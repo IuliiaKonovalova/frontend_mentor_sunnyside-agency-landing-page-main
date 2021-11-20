@@ -536,7 +536,6 @@ body {
 .footer_links {
   display: flex;
   align-items: center;
-
   list-style: none;
   font-size: 1.8vh;
 }
@@ -548,6 +547,11 @@ body {
 .footer_links li a {
   text-decoration: none;
   color: var(--clr-primary--900);
+}
+
+.footer_links li a:hover {
+  text-decoration: none;
+  color: var(--clr-neutral--100);
 }
 
 .footer_media_container {
