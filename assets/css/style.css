@@ -217,6 +217,9 @@ body {
 .block {
   justify-self: center;
   align-self: center;
+  /* flex-direction: column;
+  justify-content: center;
+  align-items: center; */
 }
 
 .block_container {
@@ -1090,8 +1093,12 @@ body {
     grid-column: 1/2;
   }
 
+
+
   .block_container {
     text-align: center;
+    padding-right: 0;
+    padding-left: 0;
   }
 
   .block_title {
@@ -1197,11 +1204,12 @@ body {
     letter-spacing: 0.25rem;
   }
 
+
+
   .block_container {
-    padding-top: 5vh;
-    padding-bottom: 5vh;
-    padding-right: 6vw;
-    padding-left: 6vw;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
   }
 
   .block_title {
@@ -1268,8 +1276,7 @@ body {
   .block_container {
     padding-top: 5vh;
     padding-bottom: 5vh;
-    padding-right: 5vw;
-    padding-left: 5vw;
+
   }
 
   .block_title {
