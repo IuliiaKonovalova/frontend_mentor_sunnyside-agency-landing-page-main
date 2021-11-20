@@ -135,6 +135,15 @@ body {
   text-transform: uppercase;
 }
 
+/*------ Contact button Active state------*/
+.contact:hover {
+  background-color: hsla(0, 0%, 100%, 0.521);
+}
+
+.contact a:hover {
+  color: var(--clr-neutral--100);
+}
+
 .arrow_holder {
   display: flex;
   justify-content: center;
