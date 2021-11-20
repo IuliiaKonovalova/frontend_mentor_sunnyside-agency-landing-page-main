@@ -265,6 +265,7 @@ body {
 
 }
 
+/* Links for text blocks */
 .transformation_link {
   position: relative;
   display: inline-block;
@@ -281,6 +282,10 @@ body {
   z-index: -1;
 }
 
+.transformation_link:hover::before {
+  border-bottom: solid 10px var(--clr-accent--500);
+}
+
 .stand_out_link {
   position: relative;
   display: inline-block;
@@ -295,6 +300,10 @@ body {
   right: -7px;
   top: 92%;
   z-index: -1;
+}
+
+.stand_out_link:hover::before {
+  border-bottom: solid 10px #ff7863;
 }
 
 .image_block1 {
