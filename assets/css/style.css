@@ -1212,7 +1212,6 @@ body {
   .block_container {
     padding-top: 5rem;
     padding-bottom: 5rem;
-
   }
 
   .block_title {
@@ -1276,22 +1275,26 @@ body {
     height: 1.5rem
   }
 
+  /* 
   .block_container {
     padding-top: 5vh;
     padding-bottom: 5vh;
 
-  }
+  } */
 
   .block_title {
     font-size: 2.2rem;
+    padding-bottom: 2rem;
   }
 
   .block_text {
     font-size: 1.15rem;
+
   }
 
   .block_link {
     font-size: 1.3rem;
+    padding-top: 2rem;
   }
 
   .image_title {
