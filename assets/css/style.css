@@ -980,7 +980,7 @@ body {
 
   .overlay {
     height: 600vh;
-    /* width: 100vw; */
+    width: 100%;
     position: absolute;
     background-color: rgba(0, 0, 0, 0);
     z-index: 5;
