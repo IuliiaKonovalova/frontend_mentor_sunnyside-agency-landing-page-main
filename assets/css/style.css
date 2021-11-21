@@ -310,6 +310,7 @@ body {
   border-bottom: solid 10px #ff7863;
 }
 
+/*------ Design and Photo Sections Styling------*/
 .image_block1 {
   grid-row: 3/4;
   grid-column: 1/2;
@@ -348,7 +349,6 @@ body {
   width: 100%;
 }
 
-/*------ Design and Photo Sections Styling------*/
 .design_content {
   color: var(--clr-primary--700);
 }
@@ -1494,8 +1494,44 @@ body {
     font-size: 1.1rem;
   }
 
+  .image_content {
+    top: 60%;
+  }
+
   .media_icons {
     width: 1.7rem;
     height: 1.7rem;
+  }
+}
+
+@media screen and (max-width: 275px) {
+
+  .block_container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .block_title {
+    font-size: 1.5rem;
+  }
+
+  .block_text {
+    font-size: 1rem;
+  }
+
+  .block_link {
+    font-size: 1rem;
+  }
+
+  .image_content {
+    top: 65%;
+  }
+
+  .image_title {
+    font-size: 1.6rem;
+  }
+
+  .image_text {
+    font-size: 1rem;
   }
 }
