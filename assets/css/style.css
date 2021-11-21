@@ -6,7 +6,7 @@
   --clr-primary--500: hsl(198, 62%, 26%);
   --clr-primary--700: #25564b;
   --clr-primary--900: #458c7e;
-  --clr-neutral--100: hsl(0, 0%, 100%);
+  --clr-neutral--100: #ffffff;
   --clr-neutral--300: hsl(210, 4%, 67%);
   --clr-neutral--500: hsl(232, 10%, 55%);
   --clr-neutral--700: hsl(213, 9%, 39%);
@@ -603,9 +603,9 @@ body {
   height: 2rem;
 }
 
-.media_icons:hover,
-.media_icons:focus {
-  fill: var(--clr-neutral--100) !important;
+.icon_facebook:hover,
+.icon_facebook:focus {
+  background-image: url('../images/icon-facebook_hover.svg');
 }
 
 /* Styling Credits section */
