@@ -576,15 +576,35 @@ body {
 
 .footer_media_links li a {
   text-decoration: none;
+}
 
+.icon_facebook {
+  background-image: url('../images/icon-facebook.svg');
+}
+
+.icon_instagram {
+  background-image: url('../images/icon-instagram.svg');
+}
+
+.icon_twitter {
+  background-image: url('../images/icon-twitter.svg');
+}
+
+.icon_pinterest {
+  background-image: url('../images/icon-pinterest.svg');
 }
 
 .media_icons {
-  fill: red;
-  height: 2rem;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 2.5rem;
+  height: 2.5rem;
 }
 
-.media_icons:hover {
+.media_icons:hover,
+.media_icons:focus {
   fill: var(--clr-neutral--100) !important;
 }
 
