@@ -608,6 +608,11 @@ body {
   background-image: url('../images/icon-facebook_hover.svg');
 }
 
+.icon_instagram:hover,
+.icon_instagram:focus {
+  background-image: url('../images/icon-instagram_hover.svg');
+}
+
 /* Styling Credits section */
 .attribution {
   font-size: 1.8vh;
