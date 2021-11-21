@@ -613,6 +613,11 @@ body {
   background-image: url('../images/icon-instagram_hover.svg');
 }
 
+.icon_twitter:hover,
+.icon_twitter:focus {
+  background-image: url('../images/icon-twitter_hover.svg');
+}
+
 .icon_pinterest:hover,
 .icon_pinterest:focus {
   background-image: url('../images/icon-pinterest_hover.svg');
