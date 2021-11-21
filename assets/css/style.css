@@ -626,6 +626,7 @@ body {
 /* Styling Credits section */
 .attribution {
   font-size: 1.8vh;
+  color: var(--clr-neutral--700);
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -1342,13 +1343,6 @@ body {
     height: 1.5rem
   }
 
-  /* 
-  .block_container {
-    padding-top: 5vh;
-    padding-bottom: 5vh;
-
-  } */
-
   .block_title {
     font-size: 2.2rem;
     padding-bottom: 2rem;
@@ -1430,6 +1424,10 @@ body {
 
 @media screen and (max-width: 330px) {
 
+  .nav_container {
+    height: 5.5rem;
+  }
+
   .block_title {
     font-size: 2.2rem;
   }
@@ -1458,6 +1456,15 @@ body {
 }
 
 @media screen and (max-width: 330px) {
+
+  .hamburger_menu_hidden {
+    display: block;
+    position: absolute;
+    right: 2rem;
+    top: 1.6rem;
+    height: 1.5rem
+  }
+
   .nav--hidden {
     left: 1.5rem;
     right: 1.5rem;
@@ -1472,5 +1479,10 @@ body {
 
   .contact a {
     font-size: 1.1rem;
+  }
+
+  .media_icons {
+    width: 1.7rem;
+    height: 1.7rem;
   }
 }
