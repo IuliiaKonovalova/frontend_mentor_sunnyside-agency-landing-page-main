@@ -613,6 +613,11 @@ body {
   background-image: url('../images/icon-instagram_hover.svg');
 }
 
+.icon_pinterest:hover,
+.icon_pinterest:focus {
+  background-image: url('../images/icon-pinterest_hover.svg');
+}
+
 /* Styling Credits section */
 .attribution {
   font-size: 1.8vh;
