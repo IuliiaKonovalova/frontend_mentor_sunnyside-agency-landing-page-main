@@ -599,8 +599,8 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   display: inline-block;
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 2rem;
+  height: 2rem;
 }
 
 .media_icons:hover,
