@@ -78,7 +78,21 @@ The solution to this challenge can be accessed by this [link](https://iuliiakono
 - [GIMP](https://www.gimp.org/) - was used to make and resize images for the README file.
 
 ---
+## Design
 
+- The color scheme and font-family were provided by [Frontend Mentor](https://www.frontendmentor.io).
+
+
+- Font-family (**Barlow**) - primary:
+
+![Font](documentation/design/font_barlow.png)
+
+
+- Font-family (**Fraunces**) - Accent:
+
+![Font](documentation/design/font_fraunces.png)
+
+---
 ## Bugs
 None
 
