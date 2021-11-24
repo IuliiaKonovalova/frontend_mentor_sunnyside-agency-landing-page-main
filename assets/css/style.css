@@ -392,6 +392,7 @@ body {
   font-size: 2.3rem;
   letter-spacing: 0.3rem;
   text-align: center;
+
 }
 
 .testimonials {
@@ -644,6 +645,19 @@ body {
 }
 
 /* --------MEDIA-------- */
+@media screen and (max-height: 570px) {
+  .incentive {
+    top: 33%;
+    max-width: 90%;
+  }
+
+  .arrow {
+    position: absolute;
+    height: 25vh;
+    top: 65%;
+  }
+}
+
 @media screen and (min-width: 1908px) {
   .block_title {
     font-size: 4rem;
@@ -778,7 +792,7 @@ body {
 
 @media screen and (max-width: 1410px) {
   .incentive {
-    font-size: 4.5rem;
+    font-size: 3.5rem;
   }
 
   .nav_container {
@@ -885,12 +899,12 @@ body {
 @media screen and (max-width: 1110px) {
   .incentive {
     letter-spacing: 1rem;
-    font-size: 4rem;
+    font-size: 2.5rem;
     font-weight: 900;
   }
 
   .arrow {
-    height: 12rem;
+    height: 7rem;
   }
 
   /* Navbar for tablet and mobile screens*/
@@ -1093,13 +1107,13 @@ body {
   }
 
   .incentive {
-    font-size: 3rem;
+    font-size: 2.5rem;
     top: 35%
   }
 
   .arrow {
     position: absolute;
-    height: 10rem;
+    height: 8rem;
     top: 55%;
   }
 
@@ -1225,6 +1239,10 @@ body {
 @media screen and (max-width: 800px) {
   .image_holder {
     height: 20rem;
+  }
+
+  .arrow {
+    padding-top: 3rem;
   }
 }
 
