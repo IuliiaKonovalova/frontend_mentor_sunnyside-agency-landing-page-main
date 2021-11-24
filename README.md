@@ -142,13 +142,22 @@ The functionality of the links in the app was checked as well by different users
   
   - No errors or warnings were found when passing through the official [W3C](https://validator.w3.org/) validator.
   
-    - Main Page:
-  
     ![Main Page HTML Validator](documentation/validators/sunny_html_validator_errors.png)
 
 
 
 
++ #### CSS
+  
+  - No errors or warnings were found when passing through the official [W3C (Jigsaw)](https://jigsaw.w3.org/css-validator/#validate_by_uri) validator except the following warnings regardless root: 
+
+    ![CSS Validator Errors](documentation/validators/sunny_css_validator.png)
+
+    ![CSS Validator Warnings](documentation/validators/synny_validaitor_warnings.png)
+
+
+
+---
 
 
 
