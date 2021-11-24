@@ -66,15 +66,38 @@ The solution to this challenge can be accessed by this [link](https://iuliiakono
 
  - Consist:
 
-    ![Main Page](documentation/features/logo.png)
+    ![Header](documentation/features/header.png) with:
 
-    * Logo of the app.
 
-    ![Main Card](documentation/features/navbar.png)
+### Navbar
+      
+![Navbar](documentation/features/navbar.png)
 
-    * Has the navbar.
+The navbar has:
 
-    #### Input Part
+  1. logo in the left top corner
+
+  ![Logo](documentation/features/logo.png)
+
+  2. Main menu.
+
+  ![Menu Desktop](documentation/features/menu_desktop.png)
+
+  for mobile screens menu is hidden and the user may see a hamburger icon to click on to see the whole menu:
+
+  ![Menu Mobile Screen](documentation/features/mobile_menu.png)
+
+### Main Section of the header
+
+Which consist main image with the incentive and an arrow.
+
+![Arrow](documentation/features/arrow.png)
+
+The arrow has an animated effect to lure the user into clicking the arrow to move to the following content. The smooth-scroll will lead the user to the next section.
+
+
+
+
 
 
 
