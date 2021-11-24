@@ -102,6 +102,11 @@ None
 
   ![Main Page](documentation/compatibility/browser_brave_sunny.png)
 
++ The app was checked by devtools implemented on Firefox and Chrome browsers.
+
++ Functionality:
+
+ ![Functionality](documentation/responsiveness/observe_functionality.gif)
 
 
 
