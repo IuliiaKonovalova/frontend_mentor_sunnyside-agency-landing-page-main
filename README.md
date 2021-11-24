@@ -55,8 +55,25 @@ The solution to this challenge can be accessed by this [link](https://iuliiakono
 * As a Frequent User, I want to have various content, so I can be engage in visiting this website often.
 
 ---
+## Features
++ ### Main Page
 
+    - Represent: 
 
+        * the payments calculator.
+        ![Main Page](documentation/app_features/main_page.png)
+
+    - Consist:
+
+        ![Main Page](documentation/features/logo.png)
+
+        * Logo of the app.
+
+        ![Main Card](documentation/features/navbar.png)
+
+        * Has the navbar.
+
+    #### Input Part
 
 
 
