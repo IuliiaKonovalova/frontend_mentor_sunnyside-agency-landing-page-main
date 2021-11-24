@@ -58,20 +58,21 @@ The solution to this challenge can be accessed by this [link](https://iuliiakono
 ## Features
 + ### Main Page
 
-    - Represent: 
+  - Represent: 
 
-        * the payments calculator.
-        ![Main Page](documentation/app_features/main_page.png)
+    * the landing page for the sunny agency.
+    
+    ![Main Page](documentation/features/main_page.png)
 
-    - Consist:
+ - Consist:
 
-        ![Main Page](documentation/features/logo.png)
+    ![Main Page](documentation/features/logo.png)
 
-        * Logo of the app.
+    * Logo of the app.
 
-        ![Main Card](documentation/features/navbar.png)
+    ![Main Card](documentation/features/navbar.png)
 
-        * Has the navbar.
+    * Has the navbar.
 
     #### Input Part
 
