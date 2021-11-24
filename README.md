@@ -135,7 +135,17 @@ The functionality of the links in the app was checked as well by different users
 
  ![Functionality](documentation/responsiveness/observe_functionality.gif)
 
+
 ---
+### Validator testing
++ #### HTML
+  
+  - No errors or warnings were found when passing through the official [W3C](https://validator.w3.org/) validator.
+  
+    - Main Page:
+  
+    ![Main Page HTML Validator](documentation/validators/sunny_html_validator_errors.png)
+
 
 
 
