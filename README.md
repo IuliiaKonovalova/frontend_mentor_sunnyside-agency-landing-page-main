@@ -155,7 +155,11 @@ The functionality of the links in the app was checked as well by different users
 
     ![CSS Validator Warnings](documentation/validators/synny_validaitor_warnings.png)
 
++ #### JS
+  
+  - No errors or warnings were found when passing through the official [JSHint](https://jshint.com/) validator except the warnings that   
 
+    ![JSHint Validator Main Page](documentation/validators/sunny_validator_js.png)
 
 ---
 
