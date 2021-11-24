@@ -197,17 +197,13 @@ The following issues regarding Accessability were reported due to the designer d
 
 The live link can be found [here](https://iuliiakonovalova.github.io/frontend_mentor_sunnyside-agency-landing-page-main/)
 
+---
+### Local Deployment
 
+In order to make a local copy of this project, you can clone it.
+In your IDE Terminal, type the following command to clone my repository:
 
-
-
-
-
-
-
-
-
-
+- `git clone https://github.com/IuliiaKonovalova/frontend_mentor_sunnyside-agency-landing-page-main.git`
 
 ---
 ## Author
