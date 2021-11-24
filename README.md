@@ -163,8 +163,19 @@ The functionality of the links in the app was checked as well by different users
 
 ---
 
+### Lighthouse Report
 
+![Lighthouse Report](documentation/lighthouse/lighthouse_sunny.png)
 
+- Issues:
+
+The following issues regarding Accessability were reported due to the designer decisions regarding colors 
+
+![Lighthouse Report](documentation/lighthouse/lighthouse_accessability_issue_1.png)
+
+![Lighthouse Report](documentation/lighthouse/lighthouse_accessability_issue_2.png)
+
+---
 
 
 
