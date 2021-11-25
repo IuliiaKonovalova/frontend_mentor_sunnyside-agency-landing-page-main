@@ -109,17 +109,23 @@ Has distinctive images on the background and content on them to attract users' a
 
 ## Testimonials Section
 
-Represent feedback of the previous users to highlight the benefits of the service that the agency provides and facilitate trust in the future clients.
+Represents feedback of the previous users to highlight the benefits of the service that the agency provides and facilitate trust in the future clients.
 This section has three testimonials fro three different people with their photos, stories, names, and their occupations.
 
 ![Testimonials Section](documentation/features/testimonials.png)
 
+## Gallery Section
 
+Consist 4 high quality photos for the website visitors to see the real work of the company.
+When the user hovers over an image, the image zoom in to allow users enjoy the quality and consistency of the agency work.
 
+![Gallery Section](documentation/features/gallery.png)
 
+## Footer Section
 
+This section has a logo at the top, "About", "Services", and "Projects" links, as well as links to the social media of the company to assure users of their service.
 
-
+![Footer Section](documentation/features/footer.png)
 
 
 ## Technologies Used
