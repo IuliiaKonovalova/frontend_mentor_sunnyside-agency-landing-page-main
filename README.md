@@ -95,7 +95,11 @@ Which consist main image with the incentive and an arrow.
 
 The arrow has an animated effect to lure the user into clicking the arrow to move to the following content. The smooth-scroll will lead the user to the next section.
 
+### Transformation and Stand out section.
 
+Has distinctive images and content. It also has a link "LEARN MORE" for the users to click on in order to learn more about the company.
+
+![Transformation and Stand out section](documentation/features/transform_standout.png)
 
 
 
