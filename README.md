@@ -101,6 +101,14 @@ Has distinctive images and content. It also has a link "LEARN MORE" for the user
 
 ![Transformation and Stand out section](documentation/features/transform_standout.png)
 
+### Graphic Design and Photography section.
+
+Has distinctive images on the background and content on them to attract users' attention.
+
+![Graphic Design and Photography section](documentation/features/design_photo.png)
+
+
+
 
 
 
