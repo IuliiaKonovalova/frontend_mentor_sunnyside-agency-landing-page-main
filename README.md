@@ -107,7 +107,12 @@ Has distinctive images on the background and content on them to attract users' a
 
 ![Graphic Design and Photography section](documentation/features/design_photo.png)
 
+## Testimonials Section
 
+Represent feedback of the previous users to highlight the benefits of the service that the agency provides and facilitate trust in the future clients.
+This section has three testimonials fro three different people with their photos, stories, names, and their occupations.
+
+![Testimonials Section](documentation/features/testimonials.png)
 
 
 
